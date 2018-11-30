@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import AppToolbar from './AppToolbar';
+
 class App extends Component {
     render() {
         return (
-            <h1>Hello</h1>
+            <AppToolbar />
         );
     }
 }
